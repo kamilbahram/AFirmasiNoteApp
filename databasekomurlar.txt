@@ -1,0 +1,6 @@
+
+migrations ilk oluþturma 
+>dotnet ef migrations add MigrationsName1
+>dotnet ef  database update   ekleme iþleminden sonra yapýlýr.
+>dotnet ef migrations remove son eklenen migrationsu siler
+>dotnet ef migrations remove --forse  silme iþlemi yaper

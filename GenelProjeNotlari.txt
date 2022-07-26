@@ -1,0 +1,16 @@
+
+
+Proje Ýsimlendirmesi
+>Firma Ýsmi + Proje Ýsmi + Katman Ýsmi
+
+Core katmaný : Temel katmandýr.
+Business Katmaný : Veri tabaný ile ilgili baðlantýlarýn kontrol edildiði katamandýr.
+UI Ýle DataAccess katmaný arasýnda köprüdür.
+Data Access Katmaný : Gelen Veriyi Hiçbirþekide konrol etmez. Gelen veriyi aldýðý gibi verir.
+Veritananý ile Businiss katmaný ile veri alýþveriþini saðlar.
+Entities Katmaný : Veritabanýndaki taplolarýn oluþturulduðu katmandýr. 
+Diðer nesnel sýnýflarda burda oluþturulabilir.
+WebApi Service Katmaný : Service katmanýdýr Starup projesidir.
+
+
+Core katmanýnda aþaðýya doðru bir baðýmlýlýk yoktur.
