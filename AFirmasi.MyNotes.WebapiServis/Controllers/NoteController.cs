@@ -81,7 +81,7 @@ namespace AFirmasi.MyNotes.WebapiServis.Controllers
         }
         [HttpDelete]
         [NoteException]
-        public IActionResult Delete(int id, [FromBody]NoteModel model )
+        public IActionResult Delete(int id)
         {
             ServiceResponse<Note> response = new ServiceResponse<Note>();
             var note = noteService.GetById(id);
