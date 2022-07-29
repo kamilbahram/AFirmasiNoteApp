@@ -84,6 +84,7 @@ namespace AFirmasi.MyNotes.WebapiServis.Controllers
         public IActionResult Delete(int id)
         {
             ServiceResponse<Note> response = new ServiceResponse<Note>();
+            //defefe
             var note = noteService.GetById(id);
             if (note == null)
             {
